@@ -9,7 +9,7 @@ function Image (){
 
     return(
     <section id="image">
-        <Carousel id="top-image-container" data-bs-theme="dark" indicators={false} interval={9000} activeIndex={activeIndex} onSelect={handleSelect} >
+        <Carousel id="top-image-container" data-bs-theme="dark" indicators={false} controls= {false} interval={6000} activeIndex={activeIndex} onSelect={handleSelect} >
           <Carousel.Item>
           <div className="carousel-photo-container">
             <img
@@ -28,14 +28,14 @@ function Image (){
             />
              </div>
           </Carousel.Item>
-          <Carousel.Item>
+          {/* <Carousel.Item>
           <div className="carousel-photo-container">
             <img 
               className="carousel-photo"
               src="/images/Gallery_pics/Bath Road (14).jpg" alt="image of Bath Road with horse-drawn cart" 
             />
              </div>
-          </Carousel.Item>
+          </Carousel.Item> */}
           <Carousel.Item>
           <div className="carousel-photo-container">
             <img 
@@ -45,7 +45,7 @@ function Image (){
              </div>
           </Carousel.Item>
         </Carousel>
-        <div className="carousel-captions">
+        {/* <div className="carousel-captions">
 <div className="carousel-caption-item">
 
 {activeIndex === 0 && <p>The New Inn on Bath Road</p>}
@@ -53,7 +53,7 @@ function Image (){
 {activeIndex === 2 && <p>Bath Road with horse-drawn cart</p>}
 {activeIndex === 3 && <p>St Michaels Church</p>}
 </div>
-</div>
+</div> */}
    </section>
 
       )

@@ -18,11 +18,10 @@ function Footer(){
     
     return(
         <section id="footer">
-
             <div className="footerDiv left_footer">
             <h4> Contact</h4>
-            <p>Membership enquiries: Keith Ruffell at kgruffell@gmail.com</p>
-            <p>Museum enquiries: David Hough: 01225 793647</p>
+            <p>Membership enquiries: Keith Ruffell (kgruffell@gmail.com)</p>
+            <p>Museum enquiries: David Hough (01225 793647)</p>
        
             </div >
              <div className="footerDiv footerlink">   
@@ -31,7 +30,7 @@ function Footer(){
                 </Nav>
                 <p> Website made by Catherine Pulman 2024</p>
                 </div>
-
+              
         </section>
     )
 }

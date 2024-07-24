@@ -46,7 +46,6 @@ const formatDate = (date) => {
         <p>All events take place in Atworth Village Hall and begin at 7:30pm.</p>
         <h4>Upcoming Events</h4>
         {upcomingEvents.map((event)=>{ 
-  console.log(event.date)
   return <div className= "event_div">
     <p className = "event_date">{formatDate(event.date)}</p>
     <p className = "event_title">{event.title}</p>
