@@ -35,7 +35,7 @@ function Header (){
         <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
                 <div>
              
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="#home" id="headerTitle">
               {/* <img id="header_image" src="/images/Gallery_pics/Clock Tower (1).jpg" alt="image of Clock tower"/>  */}
               Atworth History Group
             </Navbar.Brand>
