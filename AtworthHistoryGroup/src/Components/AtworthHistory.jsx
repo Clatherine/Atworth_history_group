@@ -1,4 +1,5 @@
 function AtworthHistory (){
+  const HistoryUrl = import.meta.env.VITE_PDF_URL_History
     return(
       <section id="atworth_history_component" >
         <h2>A Brief History of Atworth</h2>
@@ -18,7 +19,10 @@ Cottles Estate, or Atworth Parva, is a rectangular area in the west, in which th
 <br></br><br></br>
 Great and Little Chalfield are small settlements in the south of the modern parish, once independent and centred around their respective manor houses.
 <br></br><br></br>
-The 2011 Census recorded the population of Atworth at 1,321 inhabitants.</p>
+The 2011 Census recorded the population of Atworth at 1,321 inhabitants.
+<br></br><br></br>
+Read a longer history of Atworth <a className='link' href={HistoryUrl} target="_blank" rel="noopener noreferrer">here</a>.</p>
+
         </section >
     )
 }

@@ -1,7 +1,9 @@
 import Nav from 'react-bootstrap/Nav';
+import { useState } from 'react';
 
 
 function Footer(){
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     const handleNavClick = (event, targetId) => {
         event.preventDefault();
@@ -26,7 +28,8 @@ function Footer(){
             </div >
              <div className="footerDiv footerlink">   
             <Nav >
-              <Nav.Link href="#about" onClick={(e) => handleNavClick(e, 'about')}>Back to top</Nav.Link>
+              {windowWidth>=600?  <Nav.Link id="footer_link"href="#about" onClick={(e) => handleNavClick(e, 'about')}>Back to top</Nav.Link> : <Nav.Link href="#header" onClick={(e) => handleNavClick(e, 'whole_page')}>Back to top</Nav.Link> }
+             
                 </Nav>
                 <p> Website made by Catherine Pulman 2024</p>
                 </div>

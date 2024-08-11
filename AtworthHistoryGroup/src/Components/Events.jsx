@@ -24,7 +24,6 @@ const formatDate = (date) => {
   const dayOfWeek = daysOfWeek[date.getDay()];
   const dayOfMonth = date.getDate();
   const month = monthsOfYear[date.getMonth()];
-  const year = date.getFullYear();
 
   const daySuffix = (day) => {
     if (day > 3 && day < 21) return 'th'; 
@@ -43,10 +42,10 @@ const formatDate = (date) => {
     return(
       <section id="events_component" >
         <h2> 2024 Programme</h2>
-        <p>All events take place in Atworth Village Hall and begin at 7:30pm.</p>
+        <p>All events take place at <a href="https://atworthvillagehall.com/" target="_blank" rel="noopener noreferrer">Atworth Village Hall</a> and begin at 7:30pm.</p>
         <h4>Upcoming Events</h4>
         {upcomingEvents.map((event)=>{ 
-  return <div className= "event_div">
+  return <div className= "event_div" key={event.title}>
     <p className = "event_date">{formatDate(event.date)}</p>
     <p className = "event_title">{event.title}</p>
     <p className="event_details">{event.details}</p>
@@ -55,8 +54,7 @@ const formatDate = (date) => {
         <h4>Past Events</h4>
       
 {recentEvents.map((event)=>{ 
-  console.log(event.date)
-  return <div className= "event_div">
+  return <div className= "event_div" key={event.title}>
         <p className = "event_date">{formatDate(event.date)}</p>
     <p className = "event_title">{event.title}</p>
     <p className="event_details">{event.details}</p>

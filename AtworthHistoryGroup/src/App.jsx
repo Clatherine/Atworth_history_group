@@ -52,8 +52,8 @@ function App() {
             <Events />
           </div>
         )}
-    <div id= "history"><AtworthHistory/></div>
     <div id="museum"><Museum/></div>
+    <div id= "history"><AtworthHistory/></div>
     <div id="gallery-component"><Gallery/></div>
     <div id="publications"><Publications/></div>
 

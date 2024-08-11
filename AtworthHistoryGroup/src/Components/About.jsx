@@ -26,7 +26,7 @@ function About (){
       <Image/>
 <div>
   <br></br>
-We meet in the <b>Atworth Village Hall</b> at <b>7:30pm</b> on the <b>first Monday of the months October to June inclusive</b>, except on Bank Holidays, when we meet on the second Monday of the month. This year's programme of talks is shown on the left-hand section of this page.
+We meet in the <b><a href="https://atworthvillagehall.com/" target="_blank" rel="noopener noreferrer">Atworth Village Hall</a> </b>at <b>7:30pm</b> on the <b>first Monday of the months October to June inclusive</b>, except on Bank Holidays, when we meet on the second Monday of the month. This year's programme of talks is shown on the left-hand section of this page.
 </div>
 <br></br>
 <div>
