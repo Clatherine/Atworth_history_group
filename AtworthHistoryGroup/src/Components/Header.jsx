@@ -36,8 +36,10 @@ function Header() {
         <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
           <div>
             <Navbar.Brand href="#home" className="headerTitle">
-              {/* <img id="header_image" src="/images/Gallery_pics/Clock Tower (1).jpg" alt="image of Clock tower"/>  */}
-              Atworth History Group
+             {/* <div id="AHG">  */}
+              {/* <img id="header_image" src="/images/ClockTower.png" alt="image of Clock tower"/>  */}
+            Atworth History Group
+             {/* </div> */}
             </Navbar.Brand>
           </div>
           <div id="header_links">
@@ -78,7 +80,7 @@ function Header() {
           </div>
         </Navbar>
       )}
-      {windowWidth > 700 && windowWidth < 800 && (
+      {windowWidth > 700 && windowWidth < 801 && (
         <Navbar id="header" fixed='top' data-bs-theme="dark" collapseOnSelect>
           <div>
             <Navbar.Brand href="#home" className="headerTitle">

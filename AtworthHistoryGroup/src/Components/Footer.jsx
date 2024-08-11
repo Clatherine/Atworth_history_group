@@ -28,7 +28,7 @@ function Footer(){
             </div >
              <div className="footerDiv footerlink">   
             <Nav >
-              {windowWidth>=600?  <Nav.Link id="footer_link"href="#about" onClick={(e) => handleNavClick(e, 'about')}>Back to top</Nav.Link> : <Nav.Link href="#header" onClick={(e) => handleNavClick(e, 'whole_page')}>Back to top</Nav.Link> }
+              {windowWidth>=600?  <Nav.Link id="footer_link"href="#about" onClick={(e) => handleNavClick(e, 'about')}>Back to top</Nav.Link> : <Nav.Link href="#whole_page" onClick={(e) => handleNavClick(e, 'header')}>Back to top</Nav.Link> }
              
                 </Nav>
                 <p> Website made by Catherine Pulman 2024</p>
