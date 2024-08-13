@@ -1,4 +1,4 @@
-import { NavDropdown, Navbar } from "react-bootstrap";
+import {  Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import { useEffect, useState } from "react";
 
@@ -134,9 +134,12 @@ function Header() {
         </Navbar>
       )}
    {windowWidth < 700 && (
-     <Navbar id="header" expand="lg" data-bs-theme="dark">
+     <Navbar id="header" expand="lg" data-bs-theme="dark" className="custom-navbar">
+      {/* className="d-flex flex-column align-items-center w-100" */}
+        <div id="header_div">
         <Navbar.Brand href="#home" className="headerTitle"> Atworth History Group</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-custom" />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           <Nav.Link

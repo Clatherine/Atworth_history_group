@@ -72,7 +72,9 @@ box-sizing: border-box;
 .headerTitle {
     font-family:'Goudy Mediaeval' ;
 }
-
+ h1, h2, h3, h4 {
+  font-family:'Goudy Mediaeval' ;
+ }
 
 
 #header_image {
@@ -82,12 +84,39 @@ box-sizing: border-box;
   font-size: 40px !important;
 
 }
-
-
 .navbar-nav .nav-link {
-  margin-left: 20px;
   font-size: 18px;
 }
+.toggle-custom{
+  border-color: transparent !important;
+}
+
+#header_div{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 400px) {
+  #header_div{
+    flex-direction: column;
+  }
+.custom-navbar {
+  display: flex;
+  text-align: center;
+}
+
+.custom-navbar .headerTitle {
+  margin-bottom: 10px; 
+}
+
+.custom-navbar .navbar-toggler {
+  margin: 0 auto; 
+  display: inline-block;
+}
+}
+
 
 #mainBody {
   color: black;
@@ -212,8 +241,18 @@ h2{
   #atworth_history_component {
     padding-top: 20px;
   }
-  
+  #atworth_history_component p{
+    /* margin: 0 15px */
+  }
+  .accordian{
+    /* border: red solid; */
+    /* color: red; */
 
+  }
+  
+#accordian_header {
+  font-family: arial !important;
+}
 
 #museum_component {
   padding-top: 20px
@@ -229,9 +268,9 @@ h2{
 }
 
 #image_container {
-
   max-width: 300px;
   margin: 0 auto;
+  margin-bottom: 15px;
   display: flex;
 align-items: center;
 }

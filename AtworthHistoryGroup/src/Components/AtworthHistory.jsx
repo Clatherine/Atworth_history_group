@@ -1,10 +1,20 @@
+import Accordion from 'react-bootstrap/Accordion';
+
+
 function AtworthHistory (){
+
+
   const HistoryUrl = import.meta.env.VITE_PDF_URL_History
     return(
       <section id="atworth_history_component" >
         <h2>A Brief History of Atworth</h2>
-<p> Most of the present parish of Atworth was originally part of the Manor, Ancient Parish, and a Tithing of the Hundred of Bradford on Avon. Its church of St Michael and All Angels was formerly a chapel of the mother church of Holy Trinity in Bradford. It was known as Middle Atworth and Atworth Magna to distinguish it from a smaller area which was called Atworth Parva, Little Atworth or Cottles. The modern Civil Parish of Atworth was created on 19 December 1884 by detaching the Tithing of Atworth from Bradford and combining it with the minor areas of Cottles, Little Chalfield and Great Chalfield.
-<br></br><br></br>
+<p> Most of the present parish of Atworth was originally part of the Manor, Ancient Parish, and a Tithing of the Hundred of Bradford on Avon. Its church of St Michael and All Angels was formerly a chapel of the mother church of Holy Trinity in Bradford. It was known as Middle Atworth and Atworth Magna to distinguish it from a smaller area which was called Atworth Parva, Little Atworth or Cottles. The modern Civil Parish of Atworth was created on 19 December 1884 by detaching the Tithing of Atworth from Bradford and combining it with the minor areas of Cottles, Little Chalfield and Great Chalfield.<br></br>  </p>
+
+<Accordion flush>
+      <Accordion.Item eventKey="0" >
+        <Accordion.Header id="accordian_header" style={{padding: '0px', margin: '0px'}}>Expand to read more</Accordion.Header>
+        <Accordion.Body style={{margin: '0px', padding: '0px'}}>
+        <br></br>
 The name has been rendered as versions of Atford and Atworth until settling on the latter in the second part of the 19th century. The name may refer to the farmstead of a Saxon called Ætta or may simply derive from Old English aet -meaning oats. There is no significant ford here, though the main Bath Road used to flood close to the garage after heavy rainfall.
 <br></br><br></br>
 Atworth lies in undulating country on the Forest Marble clays, Cornbrash limestones and Kellaways Beds, rising towards the hills of the north and west. The parish is bounded on the north by a straight border that follows the east-west line of the old Roman road from Londinium to Aquae Sulis (Bath); in the east are Broughton Gifford and Shaw, to the south is Holt, to the west is South Wraxall. The village of Atworth consists of two parts: an old settlement near the church (Middle Atworth) and a long narrow strip along the turnpike Bath Road (Atworth Magna). Bath Road (the A365) was for a while the main road from London to Bath, with several housing estates built during the 20th century.
@@ -21,8 +31,12 @@ Great and Little Chalfield are small settlements in the south of the modern pari
 <br></br><br></br>
 The 2011 Census recorded the population of Atworth at 1,321 inhabitants.
 <br></br><br></br>
-Read a longer history of Atworth <a className='link' href={HistoryUrl} target="_blank" rel="noopener noreferrer">here</a>.</p>
+Read a longer history of Atworth <a className='link' href={HistoryUrl} target="_blank" rel="noopener noreferrer">here</a>.
+        </Accordion.Body>
+      </Accordion.Item>
+      </Accordion>
 
+   
         </section >
     )
 }
