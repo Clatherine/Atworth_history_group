@@ -56,6 +56,8 @@ const formatDate = (date) => {
       <section id="events_component" >
         <h2> 2024 Programme</h2>
         <p>All events take place at <a href="https://atworthvillagehall.com/" target="_blank" rel="noopener noreferrer">Atworth Village Hall</a> and begin at 7:30pm.</p>
+
+        <div id="upcoming_events">
         <h4>Upcoming Events</h4>
         {upcomingEvents.map((event)=>{ 
   return <div className= "event_div" key={event.title}>
@@ -64,6 +66,9 @@ const formatDate = (date) => {
     <p className="event_details">{event.details}</p>
     </div>
 })}
+        </div>
+
+
 {windowWidth>800? <><h4>Past Events</h4> 
   {recentEvents.map((event)=>{ 
   return <div className= "event_div" key={event.title}>
@@ -75,8 +80,8 @@ const formatDate = (date) => {
 })}
 </>: <Accordion flush style={{margin: '0px', padding: '0px'}}>
       <Accordion.Item  style={{margin: '0px', padding: '0px'}} eventKey="0" >
-        <Accordion.Header className="accordian_header" style={{padding: '0px', margin: '0px'}}> <h4 style={{margin: '0px', padding: '0px'}}>Past Events</h4></Accordion.Header>
-        <Accordion.Body style={{margin: '0px', padding: '0px'}}>
+        <Accordion.Header className="accordian_header" style={{padding: '0px', margin: '0px'}}> <h4 style={{margin: '-20px', padding: '0px'}}>Past Events</h4></Accordion.Header>
+        <Accordion.Body>
         {recentEvents.map((event)=>{ 
   return <div className= "event_div" key={event.title}>
         <p className = "event_date">{formatDate(event.date)}</p>
