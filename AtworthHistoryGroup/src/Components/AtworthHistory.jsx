@@ -12,7 +12,7 @@ function AtworthHistory (){
 
 <Accordion flush>
       <Accordion.Item eventKey="0" >
-        <Accordion.Header id="accordian_header" style={{padding: '0px', margin: '0px'}}>Expand to read more</Accordion.Header>
+        <Accordion.Header className="accordian_header" style={{padding: '0px', margin: '0px'}}>Read more</Accordion.Header>
         <Accordion.Body style={{margin: '0px', padding: '0px'}}>
         <br></br>
 The name has been rendered as versions of Atford and Atworth until settling on the latter in the second part of the 19th century. The name may refer to the farmstead of a Saxon called Ætta or may simply derive from Old English aet -meaning oats. There is no significant ford here, though the main Bath Road used to flood close to the garage after heavy rainfall.

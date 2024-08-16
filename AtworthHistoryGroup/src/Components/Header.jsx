@@ -36,10 +36,8 @@ function Header() {
         <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
           <div>
             <Navbar.Brand href="#home" className="headerTitle">
-             {/* <div id="AHG">  */}
-              {/* <img id="header_image" src="/images/ClockTower.png" alt="image of Clock tower"/>  */}
-            Atworth History Group
-             {/* </div> */}
+              <img id="header_image" src="/images/tower_no_border.png" alt="Atworth History Group logo"/> 
+          <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
           <div id="header_links">
@@ -80,12 +78,12 @@ function Header() {
           </div>
         </Navbar>
       )}
-      {windowWidth > 700 && windowWidth < 801 && (
+      {windowWidth >= 700 && windowWidth <= 800 && (
         <Navbar id="header" fixed='top' data-bs-theme="dark" collapseOnSelect>
           <div>
             <Navbar.Brand href="#home" className="headerTitle">
-              {/* <img id="header_image" src="/images/Gallery_pics/Clock Tower (1).jpg" alt="image of Clock tower"/>  */}
-              Atworth History Group
+            <img id="header_image" src="/images/tower_no_border.png" alt="Atworth History Group logo"/> 
+            <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
           <div id="header_links">
@@ -135,9 +133,12 @@ function Header() {
       )}
    {windowWidth < 700 && (
      <Navbar id="header" expand="lg" data-bs-theme="dark" className="custom-navbar">
-      {/* className="d-flex flex-column align-items-center w-100" */}
+  
         <div id="header_div">
-        <Navbar.Brand href="#home" className="headerTitle"> Atworth History Group</Navbar.Brand>
+        <Navbar.Brand href="#home" className="headerTitle"> 
+        {windowWidth>400?<img id="header_image" src="/images/tower_no_border.png" alt="Atworth History Group logo"/> : null}
+          <p>Atworth History Group</p>
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-custom" />
         </div>
         <Navbar.Collapse id="basic-navbar-nav">
