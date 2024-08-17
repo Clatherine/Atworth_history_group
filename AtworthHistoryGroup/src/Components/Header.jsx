@@ -1,8 +1,6 @@
-import {  Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import { useEffect, useState } from "react";
-
-
 
 function Header() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -17,8 +15,10 @@ function Header() {
   const handleNavClick = (event, targetId) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
-    let headerOffset = 0
-    if(windowWidth>=700){headerOffset = document.getElementById("header").offsetHeight;}
+    let headerOffset = 0;
+    if (windowWidth >= 700) {
+      headerOffset = document.getElementById("header").offsetHeight;
+    }
 
     const elementPosition =
       targetElement.getBoundingClientRect().top + window.scrollY;
@@ -35,15 +35,22 @@ function Header() {
       {windowWidth > 800 && (
         <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
           <div>
-            <Navbar.Brand href="#home" className="headerTitle"  style="
+            <Navbar.Brand
+              href="#home"
+              className="headerTitle"
+              style="
       font-size: 40px !important;
       font-family: 'Goudy Mediaeval';
       display: flex;
       gap: 40px;
-      align-items: flex-end;
-    ">
-              <img id="header_image" src="/public/images/tower_no_border.png" alt="Atworth History Group logo"/> 
-          <p>Atworth History Group</p>
+      align-items: flex-end"
+            >
+              <img
+                id="header_image"
+                src="/public/images/tower_no_border.png"
+                alt="Atworth History Group logo"
+              />
+              <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
           <div id="header_links">
@@ -67,7 +74,7 @@ function Header() {
               >
                 History of Atworth
               </Nav.Link>
-             
+
               <Nav.Link
                 href="#gallery-component"
                 onClick={(e) => handleNavClick(e, "gallery-component")}
@@ -85,11 +92,15 @@ function Header() {
         </Navbar>
       )}
       {windowWidth >= 700 && windowWidth <= 800 && (
-        <Navbar id="header" fixed='top' data-bs-theme="dark" collapseOnSelect>
+        <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
           <div>
             <Navbar.Brand href="#home" className="headerTitle">
-            <img id="header_image" src="/images/tower_no_border.png" alt="Atworth History Group logo"/> 
-            <p>Atworth History Group</p>
+              <img
+                id="header_image"
+                src="/images/tower_no_border.png"
+                alt="Atworth History Group logo"
+              />
+              <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
           <div id="header_links">
@@ -120,7 +131,7 @@ function Header() {
                 History of Atworth
               </Nav.Link>
               {/* <Nav.Link href="#history" onClick={(e) => handleNavClick(e, 'history')}>History of Atworth</Nav.Link> */}
-            
+
               <Nav.Link
                 href="#gallery-component"
                 onClick={(e) => handleNavClick(e, "gallery-component")}
@@ -137,19 +148,32 @@ function Header() {
           </div>
         </Navbar>
       )}
-   {windowWidth < 700 && (
-     <Navbar id="header" expand="lg" data-bs-theme="dark" className="custom-navbar">
-  
-        <div id="header_div">
-        <Navbar.Brand href="#home" className="headerTitle"> 
-        {windowWidth>400?<img id="header_image" src="/images/tower_no_border.png" alt="Atworth History Group logo"/> : null}
-          <p>Atworth History Group</p>
-          </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggle-custom" />
-        </div>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-          <Nav.Link
+      {windowWidth < 700 && (
+        <Navbar
+          id="header"
+          expand="lg"
+          data-bs-theme="dark"
+          className="custom-navbar"
+        >
+          <div id="header_div">
+            <Navbar.Brand href="#home" className="headerTitle">
+              {windowWidth > 400 ? (
+                <img
+                  id="header_image"
+                  src="/images/tower_no_border.png"
+                  alt="Atworth History Group logo"
+                />
+              ) : null}
+              <p>Atworth History Group</p>
+            </Navbar.Brand>
+            <Navbar.Toggle
+              aria-controls="basic-navbar-nav"
+              className="toggle-custom"
+            />
+          </div>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link
                 href="#about"
                 onClick={(e) => handleNavClick(e, "about")}
               >
@@ -173,7 +197,7 @@ function Header() {
               >
                 History of Atworth
               </Nav.Link>
-             
+
               <Nav.Link
                 href="#gallery-component"
                 onClick={(e) => handleNavClick(e, "gallery-component")}
@@ -186,11 +210,10 @@ function Header() {
               >
                 Publications & Documents
               </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-        
-     </Navbar>
-   )}
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      )}
     </section>
   );
 }
