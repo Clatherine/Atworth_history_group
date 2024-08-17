@@ -8,12 +8,7 @@ import Footer from "./Components/Footer";
 import Events from "./Components/Events";
 import Publications from "./Components/Publications";
 import Museum from "./Components/Museum";
-import Image from "./Components/Image";
 
-const isMobile = () => {
-  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  return /android|iPad|iPhone|iPod/i.test(userAgent);
-};
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
