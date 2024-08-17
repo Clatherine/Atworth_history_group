@@ -38,16 +38,12 @@ function Header() {
             <Navbar.Brand
               href="#home"
               className="headerTitle"
-              style={{fontSize: '40px',
-                fontFamily: 'Goudy Mediaeval',
-                display: 'flex',
-                gap: '40px',
-                alignItems: 'flex-end'}}
             >
               <img
                 id="header_image"
                 src="/images/tower_no_border.png"
                 alt="Atworth History Group logo"
+                style={{width: '100px', borderRadius: '200px'}}
               />
               <p>Atworth History Group</p>
             </Navbar.Brand>
@@ -60,7 +56,6 @@ function Header() {
               >
                 About & Programme
               </Nav.Link>
-              {/* <Nav.Link href="#events" onClick={(e) => handleNavClick(e, 'events')}>Programme</Nav.Link> */}
               <Nav.Link
                 href="#museum"
                 onClick={(e) => handleNavClick(e, "museum")}
@@ -93,11 +88,14 @@ function Header() {
       {windowWidth >= 700 && windowWidth <= 800 && (
         <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
           <div>
-            <Navbar.Brand href="#home" className="headerTitle">
+            <Navbar.Brand href="#home" className="headerTitle" 
+                
+                >
               <img
                 id="header_image"
                 src="/images/tower_no_border.png"
                 alt="Atworth History Group logo"
+                style={{width: '100px', borderRadius: '200px'}}
               />
               <p>Atworth History Group</p>
             </Navbar.Brand>
@@ -129,7 +127,6 @@ function Header() {
               >
                 History of Atworth
               </Nav.Link>
-              {/* <Nav.Link href="#history" onClick={(e) => handleNavClick(e, 'history')}>History of Atworth</Nav.Link> */}
 
               <Nav.Link
                 href="#gallery-component"
@@ -155,12 +152,13 @@ function Header() {
           className="custom-navbar"
         >
           <div id="header_div">
-            <Navbar.Brand href="#home" className="headerTitle">
+            <Navbar.Brand href="#home" className="headerTitle" >
               {windowWidth > 400 ? (
                 <img
                   id="header_image"
                   src="/images/tower_no_border.png"
                   alt="Atworth History Group logo"
+                  style={{width: '70px', borderRadius: '200px'}}
                 />
               ) : null}
               <p>Atworth History Group</p>
