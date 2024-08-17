@@ -38,16 +38,15 @@ function Header() {
             <Navbar.Brand
               href="#home"
               className="headerTitle"
-              style="
-      font-size: 40px !important;
-      font-family: 'Goudy Mediaeval';
-      display: flex;
-      gap: 40px;
-      align-items: flex-end"
+              style={{fontSize: '40px',
+                fontFamily: 'Goudy Mediaeval',
+                display: 'flex',
+                gap: '40px',
+                alignItems: 'flex-end'}}
             >
               <img
                 id="header_image"
-                src="/public/images/tower_no_border.png"
+                src="/images/tower_no_border.png"
                 alt="Atworth History Group logo"
               />
               <p>Atworth History Group</p>
