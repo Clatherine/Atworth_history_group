@@ -35,8 +35,14 @@ function Header() {
       {windowWidth > 800 && (
         <Navbar id="header" fixed="top" data-bs-theme="dark" collapseOnSelect>
           <div>
-            <Navbar.Brand href="#home" className="headerTitle">
-              <img id="header_image" src="/images/tower_no_border.png" alt="Atworth History Group logo"/> 
+            <Navbar.Brand href="#home" className="headerTitle"  style="
+      font-size: 40px !important;
+      font-family: 'Goudy Mediaeval';
+      display: flex;
+      gap: 40px;
+      align-items: flex-end;
+    ">
+              <img id="header_image" src="/public/images/tower_no_border.png" alt="Atworth History Group logo"/> 
           <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
