@@ -41,9 +41,8 @@ function Header() {
             >
               <img
                 id="header_image"
-                src="/images/tower_no_border.png"
+                src="/images/tower_no_border.jpg"
                 alt="Atworth History Group logo"
-                style={{width: '100px', borderRadius: '200px'}}
               />
               <p>Atworth History Group</p>
             </Navbar.Brand>
@@ -93,9 +92,8 @@ function Header() {
                 >
               <img
                 id="header_image"
-                src="/images/tower_no_border.png"
+                src="/images/tower_no_border.jpg"
                 alt="Atworth History Group logo"
-                style={{width: '100px', borderRadius: '200px'}}
               />
               <p>Atworth History Group</p>
             </Navbar.Brand>
@@ -156,9 +154,8 @@ function Header() {
               {windowWidth > 400 ? (
                 <img
                   id="header_image"
-                  src="/images/tower_no_border.png"
+                  src="/images/tower_no_border.jpg"
                   alt="Atworth History Group logo"
-                  style={{width: '70px', borderRadius: '200px'}}
                 />
               ) : null}
               <p>Atworth History Group</p>
