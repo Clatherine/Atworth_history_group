@@ -2,8 +2,7 @@ import { NavLink } from "react-bootstrap";
 import Image from "./Image";
 
 function About (){
-
-
+  const notice = {title: 'Notice', text: 'Due to unforseen circumstances, the event on Monday 7th October is CANCELLED.'}
   const handleNavClick = (event, targetId) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);
@@ -19,7 +18,10 @@ function About (){
 
     return(
       <section id="about_component" >
-
+{!!notice.text && <div id="news">
+  <h2>{notice.title}</h2>
+<p>{notice.text}</p>
+</div>}
 
         <h2> About</h2><div>
       The Atworth History group was founded in 1973. It is an interest group of about 40 members which meets nine times per year to enjoy talks, given both by group members and visiting speakers, on topics of interest in local and social history.</div> <br></br>

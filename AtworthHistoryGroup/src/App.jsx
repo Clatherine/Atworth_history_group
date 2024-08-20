@@ -30,6 +30,7 @@ function App() {
           </div>
         )}
         <div id="bulk">
+          <div></div>
           <div id="about">
             <About />
           </div>

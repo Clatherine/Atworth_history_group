@@ -155,6 +155,17 @@ h4 {
   flex: 1;
 }
 
+#news {
+  border: red solid 5px;
+  margin-bottom: 20px;
+  padding: 20px
+ 
+}
+
+#news p {
+  margin-bottom: 0px
+}
+
 #gallery-section {
   padding-top: 20px;
 }
