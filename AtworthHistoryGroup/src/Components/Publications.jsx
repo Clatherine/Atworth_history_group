@@ -270,6 +270,10 @@ function Publications() {
                       srcSet="/images/Recollections_small_image.webp"
                       type="image/webp"
                     />
+                      <source
+                      srcSet="/images/Recollections_small_image.png"
+                      type="image/webp"
+                    />
                     <img
                       src="/images/Recollections_small_image.png"
                       alt="image of School"

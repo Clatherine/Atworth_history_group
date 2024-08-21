@@ -26,11 +26,16 @@ function Image() {
                 srcSet="/images/Gallery_pics/Bath Road (10).webp"
                 type="image/webp"
               />
+                <source
+                srcSet="/images/Gallery_pics/Bath Road (10).jpg"
+                type="image/jpeg"
+              />
               <img
                 className="carousel-photo"
                 src="/images/Gallery_pics/Bath Road (10).jpg"
                 alt="The New Inn on Bath Road"
               />
+             
             </picture>
           </div>
         </Carousel.Item>
