@@ -25,7 +25,7 @@ function About (){
 </div>}
 
         <h2> About</h2><div>
-      The Atworth History group was founded in 1973. It is an interest group of about 40 members which meets nine times per year to enjoy talks, given both by group members and visiting speakers, on topics of interest in local and social history.</div> <br></br>
+      The Atworth History Group was founded in 1973. It is an interest group of about 40 members which meets nine times per year to enjoy talks, given both by group members and visiting speakers, on topics of interest in local and social history.</div> <br></br>
       <Image/>
 <div>
   <br></br>
