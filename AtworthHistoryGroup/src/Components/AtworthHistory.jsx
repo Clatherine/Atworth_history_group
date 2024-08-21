@@ -98,14 +98,12 @@ function AtworthHistory() {
             inhabitants.
             <br></br>
             <br></br>
-            Read a longer history of Atworth{" "}
-            <a
+            Read a longer  <a
               className="link"
               href={HistoryUrl}
               target="_blank"
               rel="noopener noreferrer"
-            >
-              here
+            >history of Atworth here
             </a>
             .
           </Accordion.Body>
