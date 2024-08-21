@@ -2,7 +2,8 @@ import { NavLink } from "react-bootstrap";
 import Image from "./Image";
 
 function About (){
-  const notice = {title: 'Notice', text: 'Due to unforseen circumstances, the event on Monday 7th October is CANCELLED.'}
+  const notice = {title: 'Notice', text: ''}
+
   const handleNavClick = (event, targetId) => {
     event.preventDefault();
     const targetElement = document.getElementById(targetId);

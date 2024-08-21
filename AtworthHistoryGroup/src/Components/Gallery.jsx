@@ -352,7 +352,7 @@ function Gallery() {
                 src="/images/Gallery_pics/St Michaels (8).jpg"
                 alt="St Michaels"
               />
-              <p>St Michaels Church</p>
+              <p>St Michaels Church choir (1960s)</p>
             </div>
           </Carousel.Item>
           <Carousel.Item>
