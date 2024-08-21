@@ -410,7 +410,7 @@ h4 {
 }
 
 .footerDiv .nav-link {
-  color: rgb(159, 159, 221) !important;
+  color: ghostwhite !important;
   font-size: 17px !important;
   transition: color 0.3s ease;
   display: flex;
@@ -419,7 +419,7 @@ h4 {
 }
 
 .footerDiv .nav-link:hover {
-  color: ghostwhite !important;
+  color: rgb(159, 159, 221) !important;
 }
 .footerlink {
   text-align: right;
@@ -581,4 +581,12 @@ h4 {
     padding: 30px 0px 0px 0px;
     border: none;
   }
+}
+
+.portfolioLink {
+  color: ghostwhite !important;
+}
+
+.footerlink .portfolioLink:hover {
+  color: rgb(159, 159, 221) !important
 }

@@ -31,7 +31,13 @@ function Footer(){
               {windowWidth>=600?  <Nav.Link id="footer_link"href="#about" onClick={(e) => handleNavClick(e, 'about')}>Back to top</Nav.Link> : <Nav.Link href="#whole_page" onClick={(e) => handleNavClick(e, 'header')}>Back to top</Nav.Link> }
              
                 </Nav>
-                <p> Website made by Catherine Pulman 2024</p>
+                <p> Website made by  <a
+              className="portfolioLink"
+         href="https://catherinepulman.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Catherine Pulman 2024
+            </a></p>
                 </div>
               
         </section>
