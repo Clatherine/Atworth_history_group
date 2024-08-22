@@ -21,7 +21,7 @@ function Image() {
       >
         <Carousel.Item>
           <div className="carousel-photo-container">
-            <picture className="carousel-photo-container">
+            <picture className=" carousel-photo-container">
               <source
                 srcSet="/images/Gallery_pics/Bath Road (10).webp"
                 type="image/webp"
@@ -36,8 +36,8 @@ function Image() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="carousel-photo-container">
-            <picture className="carousel-photo-container">
+          <div className="carousel-photo-container carousel-photo">
+            <picture className=" carousel-photo-container">
               <source
                 srcSet="/images/Gallery_pics/Bath Road (15).webp"
                 type="image/webp"

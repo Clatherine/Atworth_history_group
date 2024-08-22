@@ -61,7 +61,7 @@ function Gallery() {
 
           <Carousel.Item>
             <div className="carousel-photo-container">
-              <picture className="carousel-photo-container">
+              <picture className="carousel-photo-container ">
                 <source
                   srcSet="/images/Gallery_pics/Bath Road (14).webp"
                   type="image/webp"
