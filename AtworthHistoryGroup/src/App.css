@@ -75,7 +75,7 @@ h4 {
   font-family: "Goudy Mediaeval";
 }
 
-#header_image {
+.header_image {
   width: 100px;
   border-radius: 200px;
 }

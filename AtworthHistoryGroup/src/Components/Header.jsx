@@ -39,11 +39,18 @@ function Header() {
               href="#home"
               className="headerTitle"
             >
-              <img
-                id="header_image"
-                src="/images/tower_no_border.jpg"
-                alt="Atworth History Group logo"
-              />
+             <picture className="header_image">
+                  <source
+                    srcSet="/images/tower_no_border.webp"
+                    type="image/webp"
+                  />
+                 <img
+                  className="header_image"
+                  src="/images/tower_no_border.jpg"
+                  alt="Atworth History Group logo"
+                />
+                 
+                </picture>
               <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
@@ -90,11 +97,18 @@ function Header() {
             <Navbar.Brand href="#home" className="headerTitle" 
                 
                 >
-              <img
-                id="header_image"
-                src="/images/tower_no_border.jpg"
-                alt="Atworth History Group logo"
-              />
+                 <picture className="header_image">
+                  <source
+                    srcSet="/images/tower_no_border.webp"
+                    type="image/webp"
+                  />
+                 <img
+                  className="header_image"
+                  src="/images/tower_no_border.jpg"
+                  alt="Atworth History Group logo"
+                />
+                 
+                </picture>
               <p>Atworth History Group</p>
             </Navbar.Brand>
           </div>
@@ -152,11 +166,19 @@ function Header() {
           <div id="header_div">
             <Navbar.Brand href="#home" className="headerTitle" >
               {windowWidth > 400 ? (
-                <img
-                  id="header_image"
+                  <picture className="header_image">
+                  <source
+                    srcSet="/images/tower_no_border.webp"
+                    type="image/webp"
+                  />
+                 <img
+                  className="header_image"
                   src="/images/tower_no_border.jpg"
                   alt="Atworth History Group logo"
                 />
+                 
+                </picture>
+               
               ) : null}
               <p>Atworth History Group</p>
             </Navbar.Brand>
