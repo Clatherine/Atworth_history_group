@@ -23,12 +23,12 @@ function Image() {
           <div className="carousel-photo-container">
             <picture className=" carousel-photo-container">
               <source
-                srcSet="/images/Gallery_pics/Bath Road (10).webp"
+                srcSet="/images/Gallery_pics/Bath_Road_(10).webp"
                 type="image/webp"
               />
               <img
                 className="carousel-photo"
-                src="/images/Gallery_pics/Bath Road (10).jpg"
+                src="/images/Gallery_pics/Bath_Road_(10).jpg"
                 alt="The New Inn on Bath Road"
               />
              
@@ -39,12 +39,12 @@ function Image() {
           <div className="carousel-photo-container carousel-photo">
             <picture className=" carousel-photo-container">
               <source
-                srcSet="/images/Gallery_pics/Bath Road (15).webp"
+                srcSet="/images/Gallery_pics/Bath_Road_(15).webp"
                 type="image/webp"
               />
               <img
                 className="carousel-photo"
-                src="/images/Gallery_pics/Bath Road (15).jpg"
+                src="/images/Gallery_pics/Bath_Road_(15).jpg"
                 alt="image of Bath Road with Clock Tower in backgroun"
               />
             </picture>
@@ -55,12 +55,12 @@ function Image() {
           <div className="carousel-photo-container">
             <picture className="carousel-photo-container">
               <source
-                srcSet="/images/Gallery_pics/St Michaels (6).webp"
+                srcSet="/images/Gallery_pics/St_Michaels_(6).webp"
                 type="image/webp"
               />
               <img
                 className="carousel-photo"
-                src="/images/Gallery_pics/St Michaels (6).jpg"
+                src="/images/Gallery_pics/St_Michaels_(6).jpg"
                 alt="image of St Michaels Church"
               />
             </picture>

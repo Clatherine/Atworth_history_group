@@ -29,12 +29,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Andrews & Dury 1810 Map of Atworth.webp"
+                  srcSet="/images/Gallery_pics/Andrews_&_Dury_1810_Map_of_Atworth.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Andrews & Dury 1810 Map of Atworth.jpg"
+                  src="/images/Gallery_pics/Andrews_&_Dury_1810_Map_of_Atworth.jpg"
                   alt="Andrews & Dury 1810 Map of Atworth"
                 />
               </picture>
@@ -46,12 +46,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (15).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(15).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (15).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(15).jpg"
                   alt="image of Bath Road with Clock Tower in background"
                 />
               </picture>
@@ -63,12 +63,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container ">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (14).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(14).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (14).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(14).jpg"
                   alt="image of Bath Road with horse-drawn cart"
                 />
               </picture>
@@ -80,12 +80,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/St Michaels (6).webp"
+                  srcSet="/images/Gallery_pics/St_Michaels_(6).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/St Michaels (6).jpg"
+                  src="/images/Gallery_pics/St_Michaels_(6).jpg"
                   alt="image of St Michaels Church"
                 />
               </picture>
@@ -97,12 +97,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Atworth FC 1913-14.webp"
+                  srcSet="/images/Gallery_pics/Atworth_FC_1913-14.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Atworth FC 1913-14.jpg"
+                  src="/images/Gallery_pics/Atworth_FC_1913-14.jpg"
                   alt="Atworth FC 1913-14"
                 />
               </picture>
@@ -114,12 +114,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Atworth School C1939 (David Webb centre).webp"
+                  srcSet="/images/Gallery_pics/Atworth_School_C1939_(David_Webb_centre).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Atworth School C1939 (David Webb centre).jpg"
+                  src="/images/Gallery_pics/Atworth_School_C1939_(David_Webb_centre).jpg"
                   alt="Atworth School C1939 (David Webb centre)"
                 />
               </picture>
@@ -131,12 +131,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Atworth School C1948.webp"
+                  srcSet="/images/Gallery_pics/Atworth_School_C1948.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Atworth School C1948.jpg"
+                  src="/images/Gallery_pics/Atworth_School_C1948.jpg"
                   alt="Atworth School C1948"
                 />
               </picture>
@@ -148,12 +148,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (1).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(1).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (1).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(1).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -165,12 +165,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (4).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(4).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (4).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(4).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -182,12 +182,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (5).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(5).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (5).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(5).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -199,12 +199,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (6).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(6).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (6).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(6).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -216,12 +216,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (7).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(7).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (7).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(7).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -233,12 +233,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (8).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(8).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (8).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(8).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -250,12 +250,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (9).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(9).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (9).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(9).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -267,12 +267,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (10).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(10).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (10).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(10).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -284,12 +284,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (11).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(11).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (11).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(11).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -300,12 +300,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (16) outside the New Inn.webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(16)_outside_the_New_Inn.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (16) outside the New Inn.jpg"
+                  src="/images/Gallery_pics/Bath_Road_(16)_outside_the_New_Inn.jpg"
                   alt="Bath Road outside the New Inn"
                 />
               </picture>
@@ -317,12 +317,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (13).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(13).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (13).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(13).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -334,12 +334,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bath Road (14).webp"
+                  srcSet="/images/Gallery_pics/Bath_Road_(14).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bath Road (14).jpg"
+                  src="/images/Gallery_pics/Bath_Road_(14).jpg"
                   alt="Bath Road"
                 />
               </picture>
@@ -351,12 +351,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bradford Road (Pump Row).webp"
+                  srcSet="/images/Gallery_pics/Bradford_Road_(Pump_Row).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bradford Road (Pump Row).jpg"
+                  src="/images/Gallery_pics/Bradford_Road_(Pump_Row).jpg"
                   alt="Bradford Road (Pump Row)"
                 />
               </picture>
@@ -368,12 +368,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Bradford Road, Atworth - Winter 1962-63.webp"
+                  srcSet="/images/Gallery_pics/Bradford_Road,_Atworth_-_Winter_1962-63.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Bradford Road, Atworth - Winter 1962-63.jpg"
+                  src="/images/Gallery_pics/Bradford_Road,_Atworth_-_Winter_1962-63.jpg"
                   alt="Bradford Road, Atworth - Winter 1962-63"
                 />
               </picture>
@@ -385,12 +385,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Clock Tower (1).webp"
+                  srcSet="/images/Gallery_pics/Clock_Tower_(1).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Clock Tower (1).jpg"
+                  src="/images/Gallery_pics/Clock_Tower_(1).jpg"
                   alt="Clock Tower"
                 />
               </picture>
@@ -402,12 +402,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/David Webb at opening of the pump in Purlpit.webp"
+                  srcSet="/images/Gallery_pics/David_Webb_at_opening_of_the_pump_in_Purlpit.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/David Webb at opening of the pump in Purlpit.jpg"
+                  src="/images/Gallery_pics/David_Webb_at_opening_of_the_pump_in_Purlpit.jpg"
                   alt="David Webb at the opening of the pump in Purlpit"
                 />
               </picture>
@@ -419,12 +419,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/David Webb with village bier.webp"
+                  srcSet="/images/Gallery_pics/David_Webb_with_village_bier.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/David Webb with village bier.jpg"
+                  src="/images/Gallery_pics/David_Webb_with_village_bier.jpg"
                   alt="David Webb with village bier"
                 />
               </picture>
@@ -436,12 +436,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container"> 
                 <source
-                  srcSet="/images/Gallery_pics/Market Place (1).webp"
+                  srcSet="/images/Gallery_pics/Market_Place_(1).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Market Place (1).jpg"
+                  src="/images/Gallery_pics/Market_Place_(1).jpg"
                   alt="Market Place"
                 />
               </picture>
@@ -453,12 +453,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Market Place (2).webp"
+                  srcSet="/images/Gallery_pics/Market_Place_(2).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Market Place (2).jpg"
+                  src="/images/Gallery_pics/Market_Place_(2).jpg"
                   alt="Market Place"
                 />
               </picture>
@@ -470,12 +470,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Market Place (3).webp"
+                  srcSet="/images/Gallery_pics/Market_Place_(3).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Market Place (3).jpg"
+                  src="/images/Gallery_pics/Market_Place_(3).jpg"
                   alt="Market Place"
                 />
               </picture>
@@ -487,12 +487,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Market Place (4).webp"
+                  srcSet="/images/Gallery_pics/Market_Place_(4).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Market Place (4).jpg"
+                  src="/images/Gallery_pics/Market_Place_(4).jpg"
                   alt="Market Place"
                 />
               </picture>
@@ -504,12 +504,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Mendip Motor & Engineering Works.webp"
+                  srcSet="/images/Gallery_pics/Mendip_Motor_&_Engineering_Works.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Mendip Motor & Engineering Works.jpg"
+                  src="/images/Gallery_pics/Mendip_Motor_&_Engineering_Works.jpg"
                   alt="Mendip Motor & Engineering Works"
                 />
               </picture>
@@ -521,12 +521,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/St Michaels (3).webp"
+                  srcSet="/images/Gallery_pics/St_Michaels_(3).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/St Michaels (3).jpg"
+                  src="/images/Gallery_pics/St_Michaels_(3).jpg"
                   alt="St Michaels Church"
                 />
               </picture>
@@ -538,12 +538,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/St Michaels (6).webp"
+                  srcSet="/images/Gallery_pics/St_Michaels_(6).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/St Michaels (6).jpg"
+                  src="/images/Gallery_pics/St_Michaels_(6).jpg"
                   alt="St Michaels"
                 />
               </picture>
@@ -555,12 +555,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/St Michaels (7).webp"
+                  srcSet="/images/Gallery_pics/St_Michaels_(7).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/St Michaels (7).jpg"
+                  src="/images/Gallery_pics/St_Michaels_(7).jpg"
                   alt="St Michaels"
                 />
               </picture>
@@ -572,12 +572,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/St Michaels (8).webp"
+                  srcSet="/images/Gallery_pics/St_Michaels_(8).webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/St Michaels (8).jpg"
+                  src="/images/Gallery_pics/St_Michaels_(8).jpg"
                   alt="St Michaels"
                 />
               </picture>
@@ -589,12 +589,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Staff on Neston Park Estate - 1925.webp"
+                  srcSet="/images/Gallery_pics/Staff_on_Neston_Park_Estate_-_1925.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Staff on Neston Park Estate - 1925.jpg"
+                  src="/images/Gallery_pics/Staff_on_Neston_Park_Estate_-_1925.jpg"
                   alt="Staff on Neston Park Estate - 1925"
                 />
               </picture>
@@ -606,12 +606,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/The Forge, Atworth.webp"
+                  srcSet="/images/Gallery_pics/The_Forge,_Atworth.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/The Forge, Atworth.jpg"
+                  src="/images/Gallery_pics/The_Forge,_Atworth.jpg"
                   alt="The Forge, Atworth"
                 />
               </picture>
@@ -623,12 +623,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/The Market Place & Manor Farm.webp"
+                  srcSet="/images/Gallery_pics/The_Market_Place_&_Manor_Farm.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/The Market Place & Manor Farm.jpg"
+                  src="/images/Gallery_pics/The_Market_Place_&_Manor_Farm.jpg"
                   alt="The Market Place & Manor Farm"
                 />
               </picture>
@@ -640,12 +640,12 @@ function Gallery() {
             <div className="carousel-photo-container">
               <picture className="carousel-photo-container">
                 <source
-                  srcSet="/images/Gallery_pics/Village pump on Bradford Road.webp"
+                  srcSet="/images/Gallery_pics/Village_pump_on_Bradford_Road.webp"
                   type="image/webp"
                 />
                 <img
                   className="carousel-photo"
-                  src="/images/Gallery_pics/Village pump on Bradford Road.jpg"
+                  src="/images/Gallery_pics/Village_pump_on_Bradford_Road.jpg"
                   alt="Village pump on Bradford Road"
                 />
               </picture>
