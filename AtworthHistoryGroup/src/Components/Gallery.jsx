@@ -52,7 +52,7 @@ function Gallery() {
                 <img
                   className="carousel-photo"
                   src="/images/Gallery_pics/Bath Road (15).jpg"
-                  alt="image of Bath Road with Clock Tower in background"
+                  alt="image of bus on Bath Road with clock Tower in background"
                 />
               </picture>
               <p>Bath Road with Clock Tower in background</p>
