@@ -1,9 +1,0 @@
-/images/*.webp
-  Content-Type: image/webp
-
-/images/*.png
-  Content-Type: image/png
-
-/images/*.jpg
-/images/*.jpeg
-  Content-Type: image/jpeg
