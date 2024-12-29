@@ -36,9 +36,9 @@ function About (){
         <h2> About</h2>
         <div>
           The Atworth History Group was founded in 1973. It is an interest group
-          of about 40 members which meets nine times per year to enjoy talks,
-          given both by group members and visiting speakers, on topics of
-          interest in local and social history.
+          of 45 to 50 members which meets nine times per year to enjoy talks,
+          given by visiting speakers and sometimes group members, on topics of
+          interest in local and social history. 
         </div>{" "}
         <br></br>
         <Image />
@@ -56,7 +56,7 @@ function About (){
           </b>
           at <b>7:30pm</b> on the{" "}
           <b>first Monday of each month March to December, except July when we have an outing</b>.
-          Should the first Monday be a Bank Holidays, we will meet on the second Monday. This
+          Should the first Monday be a Bank Holiday (usually in May), we will meet on the second Monday. This
           year's programme of talks is shown 
           {windowWidth > 800 ? " on the left-hand section of this page. ": " below."}
         </div>
