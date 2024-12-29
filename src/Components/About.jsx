@@ -55,14 +55,14 @@ function About (){
             </a>{" "}
           </b>
           at <b>7:30pm</b> on the{" "}
-          <b>first Monday of the months October to June inclusive</b>, except on
-          Bank Holidays, when we meet on the second Monday of the month. This
+          <b>first Monday of each month March to December, except July when we have an outing</b>.
+          Should the first Monday be a Bank Holidays, we will meet on the second Monday. This
           year's programme of talks is shown 
           {windowWidth > 800 ? " on the left-hand section of this page. ": " below."}
         </div>
         <br></br>
         <div>
-          You are welcome to join us as a guest (£5) or as a full member (£15).
+          You are welcome to join us as a guest (£5) or as a full member (£20).
           You can join as a guest and then count this against the year's
           subscription fee if you subsequently wish to become a full member.
         </div>
