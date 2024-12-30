@@ -18,43 +18,43 @@ function Events() {
       details: "Including the private press movement of Britain",
     },
     {
-      date: new Date("2024-04-07"),
+      date: new Date("2025-04-07"),
       title: "The Moulton Trust by Dave Ecob",
       details: "A talk about Alex Moulton, his work and his home",
     },
     {
-      date: new Date("2024-05-12"),
+      date: new Date("2025-05-12"),
       title: "The Melksham Murderer by Lisa Ellis",
       details:
         "Delving into a dark episode in Melksham’s past",
     },
     {
-      date: new Date("2024-06-02"),
+      date: new Date("2025-06-02"),
       title: "1000 years of warp & weft by David Birks",
       details: "The story of the woollen trade in Trowbridge",
     },
     {
-      date: new Date("2024-08-04"),
+      date: new Date("2025-08-04"),
       title: "John Aubrey by Julie Davis",
       details: "Wiltshire’s first “trowel blazer” archaeologist",
     },
     {
-      date: new Date("2024-09-01"),
+      date: new Date("2025-09-01"),
       title: "Christopher Wren by Ruth Butler",
       details: "From astronomer to architect",
     },
     {
-      date: new Date("2024-10-06"),
+      date: new Date("2025-10-06"),
       title: "Wiltshire pastimes by Ally McConnell",
       details: "Sport & recreation through Wiltshire’s history",
     },
     {
-      date: new Date("2024-11-03"),
+      date: new Date("2025-11-03"),
       title: "Medieval deer parks by Robert Arkell",
       details: "A look at the deer parks in the Bradford Hundred",
     },
     {
-      date: new Date("2024-12-01"),
+      date: new Date("2025-12-01"),
       title: "AGM & Party",
       details: "Our end of year meeting and party!",
     },
@@ -122,7 +122,7 @@ function Events() {
 
   return (
     <section id="events_component">
-      <h2> 2024 Programme</h2>
+      <h2> 2025 Programme</h2>
       <p>
         All events take place at{" "}
         <a
