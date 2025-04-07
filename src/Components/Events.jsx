@@ -65,7 +65,7 @@ function Events() {
   const currentDate = new Date();
 
   for (let i = 0; i < eventsArray.length; i++) {
-    if (eventsArray[i].date < currentDate) {
+    if (eventsArray[i].date <= currentDate) {
       recentEvents.push(eventsArray[i]);
     } else {
       upcomingEvents.push(eventsArray[i]);
