@@ -45,13 +45,13 @@ function Events() {
     },
     {
       date: new Date("2025-10-06"),
-      title: "Wiltshire pastimes by Ally McConnell",
+      title: "Wiltshire pastimes by Ian Hicks",
       details: "Sport & recreation through Wiltshire’s history",
     },
     {
       date: new Date("2025-11-03"),
-      title: "Medieval deer parks by Robert Arkell",
-      details: "A look at the deer parks in the Bradford Hundred",
+      title: "Sir George Dowty by Martin Robins",
+      details: "His formative years, business and private life",
     },
     {
       date: new Date("2025-12-01"),
