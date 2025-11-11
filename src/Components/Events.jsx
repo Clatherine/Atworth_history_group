@@ -13,48 +13,48 @@ function Events() {
 
   const eventsArray = [
     {
-      date: new Date("2025-03-03"),
-      title: "A history of letterpress printing by Philip McMullen",
-      details: "Including the private press movement of Britain",
+      date: new Date("2026-03-02"),
+      title: "The trials of Rev. Barnwell by Lisa Ellis",
+      details: "A crime of the worst kind, and a cover-up uncovered",
     },
     {
-      date: new Date("2025-04-07"),
-      title: "The Moulton Trust by Dave Ecob",
-      details: "A talk about Alex Moulton, his work and his home",
+      date: new Date("2026-04-13"),
+      title: "Eagle House, Batheaston by Claire Mills",
+      details: "A refuge for Suffragettes released from prison",
     },
     {
-      date: new Date("2025-05-12"),
-      title: "The Melksham Murderer by Lisa Ellis",
+      date: new Date("2026-05-11"),
+      title: "Working at Chatsworth House by Julie Pelly",
       details:
-        "Delving into a dark episode in Melksham’s past",
+        "Julie’s personal experiences of Chatsworth",
     },
     {
-      date: new Date("2025-06-02"),
-      title: "1000 years of warp & weft by David Birks",
-      details: "The story of the woollen trade in Trowbridge",
+      date: new Date("2026-06-01"),
+      title: "The Saxon Church in Bradford-on-Avon by Robert Arkell",
+      details: "A history of St Laurence Church",
     },
     {
-      date: new Date("2025-08-04"),
-      title: "John Aubrey by Julie Davis",
-      details: "Wiltshire’s first “trowel blazer” archaeologist",
+      date: new Date("2026-08-03"),
+      title: "A history of Dowty in Atworth by Ally McConnell",
+      details: "Delving into the archives and personal recollections",
     },
     {
-      date: new Date("2025-09-01"),
-      title: "Christopher Wren by Ruth Butler",
-      details: "From astronomer to architect",
+      date: new Date("2026-09-07"),
+      title: "A history of Shaw & Whitley Part 2 by Peter Richardson",
+      details: "Continuing on from Peter’s talk in 2024",
     },
     {
-      date: new Date("2025-10-06"),
-      title: "Wiltshire pastimes by Ian Hicks",
-      details: "Sport & recreation through Wiltshire’s history",
+      date: new Date("2026-10-05"),
+      title: "A history of Melksham Station by Graham Ellis",
+      details: "From 1848 to the present day",
     },
     {
-      date: new Date("2025-11-03"),
-      title: "Sir George Dowty by Martin Robins",
-      details: "His formative years, business and private life",
+      date: new Date("2026-11-02"),
+      title: "A history of the Wansdyke by Ellie Stone",
+      details: "Looking at its construction and purpose",
     },
     {
-      date: new Date("2025-12-01"),
+      date: new Date("2026-12-07"),
       title: "AGM & Party",
       details: "Our end of year meeting and party!",
     },
@@ -122,7 +122,7 @@ function Events() {
 
   return (
     <section id="events_component">
-      <h2> 2025 Programme</h2>
+      <h2> 2026 Programme</h2>
       <p>
         All events take place at{" "}
         <a
