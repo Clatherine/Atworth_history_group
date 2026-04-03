@@ -3,7 +3,7 @@ import Image from "./Image";
 import { useState, useEffect } from "react";
 
 function About (){
-  const notice = {title: 'Notice', text: '2026 Programme now on this website'}
+  const notice = {title: 'Notice', text: ''}
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const handleNavClick = (event, targetId) => {
     event.preventDefault();
