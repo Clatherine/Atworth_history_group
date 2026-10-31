@@ -3,7 +3,7 @@ import Image from "./Image";
 import { useState, useEffect } from "react";
 
 function About (){
-  const notice = {title: 'Notice', text: 'Change to the November meeting due to illness.
+  const notice = {title: 'Notice', text: 'There is a change to the November meeting due to illness.
     The talk will now be The History of the Bicycle by David Hough'}
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const handleNavClick = (event, targetId) => {
