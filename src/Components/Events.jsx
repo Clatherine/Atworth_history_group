@@ -50,8 +50,8 @@ function Events() {
     },
     {
       date: new Date("2026-11-02"),
-      title: "A history of the Wansdyke by Ellie Stone",
-      details: "Looking at its construction and purpose",
+      title: "A history of the bicycle by David Hough",
+      details: "",
     },
     {
       date: new Date("2026-12-07"),
