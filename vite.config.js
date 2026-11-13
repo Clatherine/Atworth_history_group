@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     SitemapPlugin({
       hostname: 'https://atworthhistorygroup.netlify.app',
+      outDir: 'dist',    
       // You can add more options here if needed
     }),
     viteImagemin({
@@ -21,4 +22,7 @@ export default defineConfig({
       ],
     }),
   ],
+  build: {
+    outDir: 'dist',
+  },
 });
