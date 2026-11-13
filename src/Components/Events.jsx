@@ -50,7 +50,7 @@ function Events() {
     },
     {
       date: new Date("2026-11-02"),
-      title: "A history of the bicycle by David Hough",
+      title: "History of the bicycle by David Hough",
       details: "",
     },
     {
